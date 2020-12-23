@@ -4,10 +4,9 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Fang-Lin's Notes</title>
-  <link href="/notes/atom.xml" rel="self"/>
-  <link href="/notes" rel="self">
+  <link href="https://fanglinhe.github.io/notes"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://fanglinhe.github.io/notes</id>
+  <id>https://fanglinhe.github.io/notes</id>
   <author>
     <name>Fang-Lin He</name>
   </author>
@@ -17,10 +16,9 @@ layout: null
       <title>{{ post.title }}</title>
       <link href="http://fanglinhe.github.io{{ post.url }}"/>
       <updated>{{ post.date | date_to_xmlschema }}</updated>
-      <id>http://fanglinhe.github.io{{ post.id }}</id>
+      <id>https://fanglinhe.github.io{{ post.id }}</id>
       <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
   {% endfor %}
-
 </feed>
 
