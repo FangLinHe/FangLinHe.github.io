@@ -42,20 +42,20 @@ Introduction copied from YouTube description:
   
 * SwiftUI preview: click the `ContentView.swift` in project navigator, two windows are shown, the left one is the editor, and **the right one is the preview window**. The preview window can be hidden by Editor -> uncheck `canvas` (or option+command+return).
 
-```swift
-import SwiftUI
-```
+  ```swift
+  import SwiftUI
+  ```
 
 * Import a package called `SwiftUI` for doing UI stuff.
 
-```swift
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
-            .padding()
-    }
-}
-```
+  ```swift
+  struct ContentView: View {
+      var body: some View {
+          Text("Hello, World!")
+              .padding()
+      }
+  }
+  ```
 
 * `struct` in Swift: container of variables, functions, and behaviors.
 * `struct ContentView: View`: this struct is going to **behave / function like a view**; this is not object-oriented programming, but a **functional programming**.
@@ -65,13 +65,13 @@ struct ContentView: View {
 * `Text("Hello, World!").padding()` in curly-braces: if it is a one-liner, it means to return the result to this function. `return` is omitted in this case. We can also add it back.
 * Swift is a `strongly-typed` language: every variable has a specific type and always has a value.
 
-```swift
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
-```
+  ```swift
+  struct ContentView_Previews: PreviewProvider {
+      static var previews: some View {
+          ContentView()
+      }
+  }
+  ```
 
 * Gluing the UI code to the screen. Not the focus here.
 
