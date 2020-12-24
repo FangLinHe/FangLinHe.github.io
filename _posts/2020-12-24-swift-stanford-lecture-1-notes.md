@@ -34,44 +34,59 @@ Introduction copied from YouTube description:
   4. **Build and run the app on my device** instead of running it on the simulator didn't work (**the device must be connected via wire**). A message shows:
   
      ```
-     **Could not launch “Memorize”**
-     The operation couldn’t be completed. Unable to launch com.fanglin.swift-exercises.Memorize because it has an invalid code signature, inadequate entitlements or its profile has not been explicitly trusted by the user.
+     Could not launch “Memorize”
+
+     The operation couldn’t be completed.
+     Unable to launch com.fanglin.swift-exercises.Memorize because it has an invalid code signature,
+     inadequate entitlements or its profile has not been explicitly trusted by the user.
      ```
   
      The solution is, go to your device Settings -> General -> Profiles & Device Management -> under `DEVELOPER APP`, click `Apple Development: your@apple.id` -> Click the blue text `Trust "Apple Development: your@apple.id"` -> Trust -> run it again, you should see the app running successfully.
   
 * SwiftUI preview: click the `ContentView.swift` in project navigator, two windows are shown, the left one is the editor, and **the right one is the preview window**. The preview window can be hidden by Editor -> uncheck `canvas` (or option+command+return).
 
-  ```swift
-  import SwiftUI
-  ```
+---
+
+```swift
+import SwiftUI
+```
 
 * Import a package called `SwiftUI` for doing UI stuff.
 
-  ```swift
-  struct ContentView: View {
-      var body: some View {
-          Text("Hello, World!")
-              .padding()
-      }
-  }
-  ```
+---
+
+```swift
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, World!")
+            .padding()
+    }
+}
+```
 
 * `struct` in Swift: container of variables, functions, and behaviors.
+
 * `struct ContentView: View`: this struct is going to **behave / function like a view**; this is not object-oriented programming, but a **functional programming**.
+
 * `View`: a rectangular area on the screen, both for drawing and also for multi-touch.
+
 * `ContentView`: the entire rectangle that fills the screen.
+
 * `var body: some View`: you must define this var (i.e. variables / properties) called body, and the type of this var (`some View`) is **any type, any struct, as long as it behaves like a view**. Which type it returns exactly will be determined by the compiler by looking at the code in the function body.
+
 * `Text("Hello, World!").padding()` in curly-braces: if it is a one-liner, it means to return the result to this function. `return` is omitted in this case. We can also add it back.
+
 * Swift is a `strongly-typed` language: every variable has a specific type and always has a value.
 
-  ```swift
-  struct ContentView_Previews: PreviewProvider {
-      static var previews: some View {
-          ContentView()
-      }
-  }
-  ```
+---
+
+```swift
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
 
 * Gluing the UI code to the screen. Not the focus here.
 
