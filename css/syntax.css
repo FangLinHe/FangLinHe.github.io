@@ -1,12 +1,12 @@
 .language-plaintext.highlighter-rouge {
     color: #b804a2;
-    background-color: #f0f0f0;
+    background-color: #f7f7f7;
     border-radius: 3px;
     padding: 3px;
 }
 
 .highlight {
-    background: #eeeeee;
+    background: #f7f7f7;
     max-height: 300px;
     overflow: scroll;
     border: 1px #C1C1C1;
