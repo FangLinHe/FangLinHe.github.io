@@ -4,8 +4,6 @@ title: Notes of Swift Lecture 2
 date: 2020-12-28
 ---
 
-
-
 # MVVM
 
 <div><img src="/images/2020-12-28-swift-stanford-lecture-2-notes-1.png" style="max-width:800px;width:100%" /></div>
@@ -587,6 +585,4 @@ date: 2020-12-28
    ```
 
    👆 *Texts shown when we tap on each card*
-
-
 
