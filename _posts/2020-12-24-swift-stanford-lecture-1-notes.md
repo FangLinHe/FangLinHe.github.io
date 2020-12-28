@@ -27,9 +27,9 @@ Introduction copied from YouTube description:
 * My trouble shooting of testing the app on real device:
   1. Setup free developer account: simply log in to [developer.apple.com](https://developer.apple.com) with your personal Apple ID, and accept the terms if necessary.
   
-  2. Setup account in Xcode: Xcode -> Preferences -> Accounts -> click + under Apple IDs ->
+  2. Setup account in Xcode: Xcode &rarr; Preferences &rarr; Accounts &rarr; click + under Apple IDs &rarr; Add Apple ID or create a new one
   
-  3. Create a new project and change the **Organization Identifier** properly (e.g. original: `com.gmail.email.account` -> `com.fanglin.swift-exercise`). The default identifier generated automatically didn't work for me.
+  3. Create a new project and change the **Organization Identifier** properly (e.g. original: `com.gmail.email.account` &rarr; `com.fanglin.swift-exercise`). The default identifier generated automatically didn't work for me.
   
   4. **Build and run the app on my device** instead of running it on the simulator didn't work (**the device must be connected via wire**). A message shows:
   
@@ -41,9 +41,9 @@ Introduction copied from YouTube description:
      inadequate entitlements or its profile has not been explicitly trusted by the user.
      ```
   
-     The solution is, go to your device Settings -> General -> Profiles & Device Management -> under `DEVELOPER APP`, click `Apple Development: your@apple.id` -> Click the blue text `Trust "Apple Development: your@apple.id"` -> Trust -> run it again, you should see the app running successfully.
+     The solution is, go to your device Settings &rarr; General &rarr; Profiles & Device Management &rarr; under `DEVELOPER APP`, click `Apple Development: your@apple.id` &rarr; Click the blue text `Trust "Apple Development: your@apple.id"` &rarr; Trust &rarr; run it again, you should see the app running successfully.
   
-* SwiftUI preview: click the `ContentView.swift` in project navigator, two windows are shown, the left one is the editor, and **the right one is the preview window**. The preview window can be hidden by Editor -> uncheck `canvas` (or option+command+return).
+* SwiftUI preview: click the `ContentView.swift` in project navigator, two windows are shown, the left one is the editor, and **the right one is the preview window**. The preview window can be hidden by Editor &rarr; uncheck `canvas` (or option+command+return).
 
 ---
 

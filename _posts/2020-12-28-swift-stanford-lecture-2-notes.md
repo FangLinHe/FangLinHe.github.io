@@ -34,11 +34,11 @@ date: 2020-12-28
   * Bind the View to the Model
   * Interpreter (interpreting the Model for the View)
   * Can be as simple as a struct, a SQL database, or something over the network (HTTP requests)
-  * `Model` -- **notice changes** --> `ViewModel` --> `View`: e.g. using struct, **it's copied around when it's passed to functions** --> Swift knows when a struct has changed
+  * `Model` -- **notice changes** &rarr; `ViewModel` &rarr; `View`: e.g. using struct, **it's copied around when it's passed to functions** &rarr; Swift knows when a struct has changed
   * ViewModel might interpret the data to convert to some other format for the View to draw
-  * `Model` -- notice changes --> `ViewModel` -- **publish something changed to the world** --> `View`
+  * `Model` -- notice changes &rarr; `ViewModel` -- **publish something changed to the world** &rarr; `View`
   * ViewModel doesn't have any pointers to the View; it doesn't talk directly to its Views
-  * The View subscribes to that publication (*automatically observes publications*) --> if something has changes --> ask ViewModel what the current state is (*pull data*) --> draw to reflect the state of the world (*rebuilds*)
+  * The View subscribes to that publication (*automatically observes publications*) &rarr; if something has changes &rarr; ask ViewModel what the current state is (*pull data*) &rarr; draw to reflect the state of the world (*rebuilds*)
 
 * Some example of the syntax will be used:
   * ViewModel:
@@ -54,7 +54,7 @@ date: 2020-12-28
 * The other direction (View wants to change Model):
   * ViewModel **processes the user's intent**
   * Related architecture: **Model-View-Intent**
-  * E.g. in the card memory game, the intent is when the user chooses a card --> the View will **call an Intent fucntion** in the ViewModel --> the ViewModel will **modify the Model** --> the Model notices changes --> the ViewModel might interpret --> the ViewModel publishes "something changed"
+  * E.g. in the card memory game, the intent is when the user chooses a card &rarr; the View will **call an Intent fucntion** in the ViewModel &rarr; the ViewModel will **modify the Model** &rarr; the Model notices changes &rarr; the ViewModel might interpret &rarr; the ViewModel publishes "something changed"
 
 <div><img src="/images/2020-12-28-swift-stanford-lecture-2-notes-2.png" style="max-width:800px;width:100%" /></div>
 
@@ -164,7 +164,7 @@ date: 2020-12-28
 
   * It needs types for **functions** in it (e.g. add items)
 
-  * --> What they need is **generics**: use a declaration of the "don't care" type
+  * &rarr; What they need is **generics**: use a declaration of the "don't care" type
 
     ```swift
     struct Array<Element> {
@@ -229,7 +229,7 @@ date: 2020-12-28
 
 * **Closures**:
   * Inlining a function instead of declaring them with `func`
-  * SwiftUI: functional programming --> **functions as type** is a very important concept in Swift
+  * SwiftUI: functional programming &rarr; **functions as type** is a very important concept in Swift
 
 ---
 
@@ -237,7 +237,7 @@ date: 2020-12-28
 
 1. Add a new Swift file for the **Model**:
 
-   New File --> Choose **Swift File** as we are creating a Model, not a UI struct) --> Save As: MemoryGame, Group: Memorize (in yellow folder), location: Memorize/Memorize. The created file looks like this:
+   New File &rarr; Choose **Swift File** as we are creating a Model, not a UI struct) &rarr; Save As: MemoryGame, Group: Memorize (in yellow folder), location: Memorize/Memorize. The created file looks like this:
 
    ```swift
    //
@@ -276,7 +276,7 @@ date: 2020-12-28
 
 3. Add a **ViewModel** serves as a glue that **glues the Model (UI independent thing) to the View (UI dependent thing)**:
 
-   New File --> Swift File --> Save As: **EmojiMemoryGame** (a specific MemoryGame that uses emojis as the things it draws) --> the same location and group as the Model
+   New File &rarr; Swift File &rarr; Save As: **EmojiMemoryGame** (a specific MemoryGame that uses emojis as the things it draws) &rarr; the same location and group as the Model
 
    * Import `SwiftUI` as **a ViewModel is essentially a UI thing**, because it knows how this is going to be drawn on screen
 
@@ -301,7 +301,7 @@ date: 2020-12-28
 
      * The `model` should be something more descriptive, e.g. game, memoryGame, etc.; here it's called `model` so we clearly see it's a Model.
      * The reasons to use `class` instead of `struct`: easy to share (lives in the heap), as multiple Views need to look at this "portal" (i.e. ViewModel: a portal on to the Model)
-     * `private` is used to "close the front-door", so the Model will not be messed up and `model` can only be accessed by the `EmojiMemoryGame` --> but in that case no View can see the model
+     * `private` is used to "close the front-door", so the Model will not be messed up and `model` can only be accessed by the `EmojiMemoryGame` &rarr; but in that case no View can see the model
      * `private(set)` is used to "close the glass-door", so Views can see what's inside the house (`model`) but they can't modify it
 
    * Add "user intent" related code
@@ -385,7 +385,7 @@ date: 2020-12-28
      }
      ```
 
-   * Prevent creating extra little functions --> inline the function / write a **closure**:
+   * Prevent creating extra little functions &rarr; inline the function / write a **closure**:
 
      ```swift
      import SwiftUI
@@ -400,7 +400,7 @@ date: 2020-12-28
 
      * Inline the function: moves `{` to before the arguments and place `in`
      * Type inferences: as the argument type and the return type of `cardContentFactory` can be referred by the argument type of `MemoryGame`'s  `init`, we don't need `Int` in and `-> String` in `(pairIndex: Int) -> String`; then the parenthesis of `(pairIndex)` can also be omitted
-     * The inline function has one line --> `return` can be omitted
+     * The inline function has one line &rarr; `return` can be omitted
      * When the last argument of a function is a function type: we can get rid of the keyword `cardContentFactory` and put the curly brace thing outside
      * As `pairIndex` is not used here: replace it with `_` meaning "it doesn't matter what it is"; it must be placed to say we know there is an argument but we don't use it
 
