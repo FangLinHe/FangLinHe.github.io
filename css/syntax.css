@@ -9,10 +9,12 @@ code.language-plaintext.highlighter-rouge {
 pre.highlight {
     background: #fafafa;
     #max-height: 300px;
-    #overflow: scroll;
+    overflow: scroll;
     border: 1px solid #C1C1C1;
     border-radius: 5px;
     padding: 10px;
+    font-size: 0.8em;
+    line-height: 1.2em;
 }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
@@ -114,17 +116,17 @@ tbody th {
 }
 
 thead th {
-  border-left: 1px dotted #ccc;
-  border-right: 1px dotted #ccc;
+  border-left: 1px dotted #2b2e2f;
+  border-right: 1px dotted #2b2e2f;
   background-color: #f7f7f7;
   padding: 0.6rem;
 }
 
 td {
-  border-top: 1px dotted #ccc;
-  border-bottom: 1px dotted #ccc;
-  border-left: 1px dotted #ccc;
-  border-right: 1px dotted #ccc;
+  border-top: 1px dotted #2b2e2f;
+  border-bottom: 1px dotted #2b2e2f;
+  border-left: 1px dotted #2b2e2f;
+  border-right: 1px dotted #2b2e2f;
   padding: 0.6rem;
 }
 
