@@ -4,6 +4,22 @@ title: Notes of Swift Lecture 2
 date: 2020-12-28
 ---
 
+[Video on YouTube](https://youtu.be/4GjXq2Sr55Q)
+
+Introduction copied from YouTube description:
+
+> The series of video lectures given to Stanford University students in Spring of 2020 continues with a conceptual overview of the **architectural paradigm** underlying the development of applications for iOS: **MVVM**.  In addition a key concept in the Swift Programming Language, its **type system**, is explained.  The Memorize demonstration continues, incorporating MVVM.
+
+
+
+> It is impossible to develop applications for iOS using SwiftUI without using the MVVM architecture for organizing your code.  This lecture explains what that is and then demonstrates how it works in our demonstration application.  SwiftUI development happens entirely in the programming language Swift.  Swift is unique in its **support of most modern language features**, including both **object-oriented programming** and functional programming.  Since functional programming is new to most Stanford students, this lecture starts the process of explaining how it works by covering the <u>basics of Swift’s type system</u>, including **structs and classes**, **generics** and **functions as types**.  The demonstration then moves to the next level using the **MVVM architecture** (including creating a **Model**, a **ViewModel**, **expressing user’s intent from the View**) and **utilizing Swift features** like generics and functions as types.  After this lecture, students take over the development of Memorize for their first assignment.
+
+
+
+> Archived course materials (homework assignments and lecture slides) are available at [https://cs193p.stanford.edu](https://www.youtube.com/redirect?redir_token=QUFFLUhqbEpKSHBwQmF3bjN5aWdHaWF1MkJ4OVFwb0Z5UXxBQ3Jtc0tucFB3OGNQR1B0ZnNIck9UdER1bWQ4Y3BrVjZEc3pmYUZqbzV2LWR0VVBQaU8wUFZSYnZFVFlzSHF5S3dpYjZCNkt5N0paN3BReFdNUk9mX2UzVUF2SjdsU2dpWXNZNnZEQ3FGMFNKc09TLWduMk8wZw%3D%3D&v=4GjXq2Sr55Q&q=https%3A%2F%2Fcs193p.stanford.edu&event=video_description).
+
+---
+
 # MVVM
 
 <div><img src="/images/2020-12-28-swift-stanford-lecture-2-notes-1.png" style="max-width:800px;width:100%" /></div>
