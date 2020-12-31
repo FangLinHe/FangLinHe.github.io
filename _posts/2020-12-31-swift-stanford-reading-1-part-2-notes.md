@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Notes of Reading 1 - part 2
-date: 2020-12-30
+date: 2020-12-31
 ---
 
 Full Reading 1 document can be found [here](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf)
