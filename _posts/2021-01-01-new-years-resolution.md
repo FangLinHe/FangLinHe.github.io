@@ -44,7 +44,7 @@ The year 2020 has finally passed! I believe it was a tough year for lots of peop
 
   I decided to continue taking German courses on Saturdays starting from February, 2020. It was really a tough decision, as it means to "sacrifice" almost all the weekends and probably some weekday-nights to learn German. It was even very embarrassing in the first course, as the teacher tried to chat with me to know more about me, but I couldn't even remember what "Nachbarn" (neighbors) means. However, I still stayed in the German course, as I knew the importance of German.
 
-  The course was unfortunately interrupted for almost two months due to covid-19, and course happened online quite often afterwards. Fortunately, our teacher still overcame all the difficulties and enough classmates still attended the course, so we still finshed B1 (2/2) and B1+ courses eventually. Other than that, a lot of grammar that I didn't understand a year ago is much clear after these courses, I can read more news articles without looking up in the dictionary, and I can communicate in German slightly better, although I have no opportunity to speak it at all outside the classroom.
+  The course was unfortunately interrupted for almost two months due to covid-19, and then it happened online quite often afterwards. Fortunately, our teacher still overcame all the difficulties and enough classmates still attended the course, so we still finshed B1 (2/2) and B1+ courses eventually. Other than that, a lot of grammar that I didn't understand a year ago is much clear after these courses, I can read more news articles without looking up in the dictionary, and I can communicate in German slightly better, although I have no opportunity to speak it at all outside the classroom.
 
 # New Year's Resolutions for 2021
 
@@ -57,6 +57,7 @@ The year 2020 has finally passed! I believe it was a tough year for lots of peop
   * 📱Finish the Swift course and learn app development
   * 🤖 Follow the latest research articles in Machine Learning and Deep Learning
   * 🎹 Practice piano more often
+  * 🇩🇪 Take a pass the German B1 certificate
 * 🧩 Find new interests and hobbies to feel excited in something again
 * 🐈 Cats are healthy and happy everyday
 * 📖 Read some books
