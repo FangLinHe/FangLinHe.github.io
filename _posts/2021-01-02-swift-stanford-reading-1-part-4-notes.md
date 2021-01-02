@@ -6,6 +6,8 @@ date: 2021-01-02
 
 Full Reading 1 document can be found [here](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf)
 
+# Swift Programming Language (cont.)
+
 ## [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
 
 *Closures* are self-contained **blocks of functionality** that **can be passed around** and used in your code.
@@ -1086,4 +1088,6 @@ You can omit either property or both properties, and the initializer uses the de
 ---
 
 ### <span style="color:#c0c0c0">Setting a Default Property Value with a Closure or Function</span>
+
+---
 
