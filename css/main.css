@@ -6,7 +6,7 @@ body {
     line-height: 1.6em;
     font-family: "Gill sans", sans-serif;
     font-weight: 300;
-    color: #2b2e2f;
+    color: #3d4142;
 }
 nav ul, footer ul {
     font-weight: 600;
@@ -26,7 +26,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: #537078;
+    color: #61696b;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
@@ -44,3 +44,19 @@ ul.posts li {
     list-style: none;
 }
 
+.post-block .post-title {
+  font-size: 0.8em;
+  line-height: 0.8em;
+  margin-top: -0.25em;
+  margin-bottom: 2.0em;
+}
+
+.post-block .post-title a {
+  color: #3d4142;
+}
+
+.post-date {
+  color: #949b9e;
+  font-size: 0.8em;
+  line-height: 0.8em;
+}

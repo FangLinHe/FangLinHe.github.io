@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Notes of Reading 1 - part 3
-categories: notes Swift
+title: Stanford CS193p - Reading 1 - part 3
+categories: notes Swift CS193p
 date: 2021-01-01
 ---
 

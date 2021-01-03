@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Notes of Swift Assignment 1
-categories: notes Swift
+title: Stanford CS193p - Assignment 1
+categories: notes Swift CS193p
 date: 2020-12-28
 ---
 

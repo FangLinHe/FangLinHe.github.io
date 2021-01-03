@@ -4,8 +4,23 @@ title: Blogs
 ---
 <ul class="posts">
   {% for post in site.posts %}
-    {% post.categories[0] == "blogs" %}
-      <li><span>{{ post.date | date_to_string }}</span> ‧ <a href="{{ post.url }}" title="{{ post.title}}">{{ post.title }}</a></li>
-    {% endunless %}
+    {% if post.categories.size == 0 or post.categories[0] == "blogs" %}
+      <div class="post-block">
+        <div class="post-date">
+          {{ post.date | date_to_string }}
+          {% assign categories = post.categories | slice: 1, post.categories.size %}
+          {% for category in categories %}
+            ⋅ {{ post.categories[1] }}
+          {% endfor %}
+        </div>
+        <div class="post-title">
+          <a href="{{ post.url }}" title="{{ post.title}}">
+            <h2>
+              {{ post.title }}
+            </h2>
+          </a>
+        </div>
+      </div>
+    {% endif %}
   {% endfor %}
 </ul>
