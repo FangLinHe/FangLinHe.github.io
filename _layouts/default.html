@@ -10,16 +10,25 @@
   <body>
     <nav>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/blogs">Blogs</a></li>
-        <li><a href="/notes">Notes</a></li>
-        <li><a href="/works">Works</a></li>
+      {% assign url = page.url | remove:'index.html' %}
+      {% assign categories = url | split: "/" %}
+      {% assign matchURL = "/" %}
+      {% if categories.size > 1 %}
+        {% assign matchURL = matchURL | append: categories[1] | append: "/" %}
+      {% endif %}
+
+      {% for link in site.navigation %}
+      <li {% if url == link.url or link.url == matchURL %}class="active"{% endif %}>
+          <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+      </li>
+      {% endfor %}
       </ul>
     </nav>
     <div class="container">
- 
-    <h1>{{ page.title }}</h1>
+
+    <h1>
+      {{ page.title }}
+    </h1>
 
     {{ content }}
     

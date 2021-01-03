@@ -2,3 +2,17 @@ name: Fang-Lin He
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title
 
+navigation:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Blogs
+  url: /blogs/
+  layout: post
+- text: Notes
+  url: /notes/
+  layout: post
+- text: Works
+  url: /works/
+

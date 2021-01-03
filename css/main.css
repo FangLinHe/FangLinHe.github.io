@@ -60,3 +60,19 @@ ul.posts li {
   font-size: 0.8em;
   line-height: 0.8em;
 }
+
+li.active {
+}
+
+li a {
+  padding: 5px;
+}
+
+li.active a {
+  color: #f0f0f0;
+  background-color: #3d4142;
+}
+
+nav {
+  margin-bottom: 2em;
+}
