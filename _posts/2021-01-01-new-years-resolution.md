@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2021 New Year's Resolution
+categories: blogs
 date: 2021-01-01
 ---
 

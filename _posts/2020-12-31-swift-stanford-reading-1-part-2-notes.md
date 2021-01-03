@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Notes of Reading 1 - part 2
+categories: notes Swift
 date: 2020-12-31
 ---
 

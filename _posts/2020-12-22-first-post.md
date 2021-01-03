@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First post of this website"
+categories: blogs
 date: 2020-12-22
 ---
 

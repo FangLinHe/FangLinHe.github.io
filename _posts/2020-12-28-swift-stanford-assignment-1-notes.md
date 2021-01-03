@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Notes of Swift Assignment 1
+categories: notes Swift
 date: 2020-12-28
 ---
 
