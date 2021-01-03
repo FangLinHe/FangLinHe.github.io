@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">
+  {{ page.date | date_to_string }}
+  {% assign categories = page.categories | slice: 1, page.categories.size %}
+  {% for category in categories %}
+    ⋅ {{ category }}
+  {% endfor %}
+</p>
 
 <div class="post" markdown="1">
   {{ content }}
