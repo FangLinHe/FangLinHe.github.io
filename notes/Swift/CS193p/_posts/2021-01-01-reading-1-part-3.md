@@ -4,7 +4,9 @@ title: Reading 1 - part 3
 date: 2021-01-01
 ---
 
-Full Reading 1 document can be found [here](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf)
+> Full Reading 1 document can be found [here](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf).
+>
+> Most of the content is a copy of [Swift documentation](https://swift.org/documentation/). It is stated in the [license](https://swift.org/LICENSE.txt) that redistribution is possible. If I still violate a copyright, please inform me in the comment at the bottom of the page or via LinkedIn.
 
 # Swift Programming Language (cont.)
 
