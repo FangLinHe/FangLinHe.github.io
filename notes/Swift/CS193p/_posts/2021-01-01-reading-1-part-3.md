@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stanford CS193p - Reading 1 - part 3
+title: Reading 1 - part 3
 date: 2021-01-01
 ---
 

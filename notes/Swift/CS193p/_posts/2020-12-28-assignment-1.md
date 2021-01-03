@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stanford CS193p - Assignment 1
+title: Assignment 1
 date: 2020-12-28
 ---
 

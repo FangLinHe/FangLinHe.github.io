@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stanford CS193p - Reading 1 - part 1
+title: Reading 1 - part 1
 date: 2020-12-30
 ---
 
