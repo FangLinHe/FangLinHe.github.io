@@ -1,4 +1,4 @@
 name: Fang-Lin He
 markdown: kramdown
-permalink: /posts/:year/:month/:day/:title
+permalink: /:categories/:year/:month/:day/:title
 
