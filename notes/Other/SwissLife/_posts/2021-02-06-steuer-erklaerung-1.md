@@ -6,35 +6,41 @@ date: 2021-02-06
 
 <div style="text-align: center;"><img src="/images/steuererklaerung_ch/steuererklaerung_brief.jpg" style="width: 100%; max-width: 800px" /><br/>👆 稅務申報單</div>
 
+## 前言
+
 瑞士報稅季又到了！年初總會陸陸續續收到銀行、保險、薪資等等去年度的所得扣繳憑單，並且要在三月底前完成報稅。相較臺灣大部份報稅相關資料都已上傳到國稅局，只需要手動輸入部份項目，個人覺得瑞士的報稅麻煩許多，大部份資料都還是必須手動輸入，且各類應稅及可抵稅項目多如牛毛，再加上語言上的鴻溝，總要花上幾週的時間才能填寫完成。因此今年決定寫下報稅相關的筆記，希望能減輕明年報稅所需要花費的時間。也或許這份筆記能夠幫忙其他在瑞士工作、有報稅疑問或需求的人。
 
 <div style="text-align: center;"><img src="/images/steuererklaerung_ch/steuererklaerung_lohnausweis.jpg" style="width: 100%; max-width: 400px" /><br/>👆 薪資證明</div>
 
 原本想要寫的是報稅軟體的操作步驟及簡單的翻譯，但不小心寫下太多非軟體操作面的細節，因此決定分為上下兩篇。這篇會著重在瑞士所得稅的相關知識，下篇才會把報稅的步驗一一列出。
 
-由於我個人對於瑞士的稅法並無涉獵，也非法律相關背景，只是在瑞士報稅第三年的軟體工程師，因此本文任何內容皆為不專業分享，大部份資訊也是從網路上及個人經驗得到，若有任何穆誤敬請見諒及不吝指教、更正。
+聲明：由於我**個人對於瑞士的稅法並無涉獵，也非法律相關背景**，只是在瑞士報稅第三年的軟體工程師，因此本文所有內容皆為不專業分享，大部份資訊也是從網路上及個人經驗得到，若有任何穆誤敬請見諒及不吝指教、更正。
 
 ## 外國人在瑞士工作如何繳交所得稅 - 源頭稅
 
-大部份情況下，持有長短期居留證（B / L Permit）在瑞士工作的外國人，所得稅會直接從每月薪資扣繳（源頭稅，英文：taxation at source or withholding tax、德文：Quellensteuer、法文：Impôt à la source、義大利文：Ritenuta d'acconto），且根據「居住地」的州、每月薪資換算成年薪、婚姻狀態、子女數量來決定稅率。[[ref]](https://www.thelocal.ch/20201230/explained-what-you-should-know-about-switzerlands-new-tax-law){:target="_blank"}
+大部份情況下，持有長短期居留證（B / L Permit）在瑞士工作的外國人，所得稅會直接從每月薪資扣繳（源頭稅，英文：taxation at source or withholding tax、德文：Quellensteuer、法文：Impôt à la source、義大利文：Ritenuta d'acconto），且根據「居住地」的州、每月薪資換算成年薪、婚姻狀態、子女數量來決定稅率。 [[ref]](https://www.thelocal.ch/20201230/explained-what-you-should-know-about-switzerlands-new-tax-law){:target="_blank"}
 
 ## 哪些人需要填寫報稅單？
 
 若在瑞士工作居留且持有永久居留證（C Permit）、持有長期或短期居留證（B / L Permit）但年薪超過一定上限（目前為十二萬瑞郎，僅日內瓦州上限為五十萬瑞郎）、或是是年薪未超過上限但想透過填寫完整稅單來節稅的人，每年三月底前必須完成報稅。但其實可以申請延長期限，不需要特別的理由或證明文件。
 
-## 2021 年新稅收法規
+註：遵循一般瑞士人報稅模式的正式德文名稱為 `Nachträgliche ordentliche Veranlagung (NOV)`，但我不知道中文是什麼。
+
+## 2021 年新稅收法規 [[ref]](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-105-129-stg/105_1.pdf.ocFile/105_1.pdf){:target="_blank"}
 
 2021 年瑞士實施一些新的稅收法規，主要目的為確保遵守 EU / EFTA 協議中有關人員自由流動的規定，以消除預扣所得稅及普通稅制之間待遇上的差異。另外瑞士各州也將標準化預扣所得稅的計算。
 
-而這些規定中與我們外國雇員較相關的一點是：**所有扣繳源頭稅的外國人都有權填寫一般的完整納稅申報表，但無法像過去一樣只申報節稅項目。且一旦申請後每年都必須填寫完整稅單。**
+而這些規定中與我們外國雇員較相關的一點是：**所有扣繳源頭稅的外國人都有權填寫一般的完整納稅申報表，但無法像過去一樣只申報節稅項目。且一旦申請後每年都必須填寫完整稅單，即使搬到其他州，仍得繼續報稅。**(Art. 107 Abs. 5 DBG und Art. 38a StHG)
 
 據我所知，在這之前有的州是可以只針對部份節稅項目（例如：Pillar 3a）進行申報，但像我居住的聖加侖州，在我 2019 年初申請時就已經必須填寫完整報稅單，且每年都會收到申報表。若有意填寫一般報稅單，每年必須在三月底前向居住地的稅務局申請，收到稅單後若無法趕在三月底前完成申報，可先上網申請延長期限再慢慢填寫。
 
-另一個與之前最大的不同的新規定是：與瑞士人結婚或是持有永久居留證的非瑞士人，**會從薪水中預扣所得稅（不計利息）**，並在之後填寫完整報稅單後多退少補。
+<del>另一個與之前最大的不同的新規定是：與瑞士人結婚或是持有永久居留證的非瑞士人，**會從薪水中預扣所得稅（不計利息）**，並在之後填寫完整報稅單後多退少補。</del>
+
+更正：上面那行是我的理解錯誤。正確應為，若從預扣稅身份轉換為普通稅收身份（例如：獲得永久居留證、與瑞士人或持永久居留證的人結婚，從轉換身份的下個月開始，不必繼續繳納預扣稅，報稅時以整個年度計算稅金，預繳納的稅金會不計利息從應繳稅金中扣除。(Art. 12 QStV)
 
 ## 什麼情況下會想要或需要填寫完整報稅單？
 
-以下情況有義務填寫完整稅單[[ref]](https://www.fin.be.ch/fin/de/index/steuern/steuererklaerung/quellensteuer1_.assetref/dam/documents/FIN/SV/de/info_10minuten/info-quellensteuer_e.pdf){:target="_blank"}：
+以下情況有義務填寫完整稅單 [[ref]](https://www.fin.be.ch/fin/de/index/steuern/steuererklaerung/quellensteuer1_.assetref/dam/documents/FIN/SV/de/info_10minuten/info-quellensteuer_e.pdf){:target="_blank"}：
 
 * 年薪超過十二萬瑞士法郎
 * 應稅資產超過十五萬瑞士法郎（所以如果在瑞士置產就一定要報稅了！）
@@ -49,7 +55,7 @@ date: 2021-02-06
 
 **因此若是持續有高額的上述支出，可考慮是否填寫完整稅單以節稅。**
 
-另一點要考慮的還有居住地。所得稅由三部份組成：聯邦稅、州稅、跟市鎮稅。其中市鎮稅可能會差很多。例如一樣住在聖加侖州，比較居住地 Pfäfers 與 Mörschwil，同樣結婚無子女、無宗教、年薪十二萬瑞郎，假設扣完扣除項目後應稅金額為十萬瑞郎，換算出來的稅金分別為 15592.00 瑞郎及 11924.00 瑞郎[[ref]](https://www.sg.ch/content/sgch/steuern-finanzen/steuern/steuerkalkulator/privatperson.html){:target="_blank"}，住在稅率最高的 Pfäfers 比住在稅率最低的 Mörschwil 整整多繳了 30.8% 的稅金！而相同條件下，若是每月薪資一萬瑞郎、沒有第十三個月薪資的情況下，源頭稅稅率為 11.55% [[ref]](https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/quellensteuern.html){:target="_blank"}，換算一年繳的所得稅約為 13860 瑞郎。因此，**若是住在市鎮稅率較高的地區，填寫報稅單後若是可扣除項目並不多的話，反而需要補繳所得稅！反之，若住在市鎮稅率較低的地區，填寫完整稅單可能能退回數百至數千瑞郎的預扣所得稅！**
+另一點要考慮的還有居住地。所得稅由三部份組成：聯邦稅、州稅、跟市鎮稅。其中市鎮稅可能會差很多。例如一樣住在聖加侖州，比較居住地 Pfäfers 與 Mörschwil，同樣結婚無子女、無宗教、年薪十二萬瑞郎，假設扣完扣除項目後應稅金額為十萬瑞郎，換算出來的稅金分別為 15592.00 瑞郎及 11924.00 瑞郎 [[ref]](https://www.sg.ch/content/sgch/steuern-finanzen/steuern/steuerkalkulator/privatperson.html){:target="_blank"}，住在稅率最高的 Pfäfers 比住在稅率最低的 Mörschwil 整整多繳了 30.8% 的稅金！而相同條件下，若是每月薪資一萬瑞郎、沒有第十三個月薪資的情況下，源頭稅稅率為 11.55% [[ref]](https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/quellensteuern.html){:target="_blank"}，換算一年繳的所得稅約為 13860 瑞郎。因此，**若是住在市鎮稅率較高的地區，填寫報稅單後若是可扣除項目並不多的話，反而需要補繳所得稅！反之，若住在市鎮稅率較低的地區，填寫完整稅單可能能退回數百至數千瑞郎的預扣所得稅！**
 
 前公司兩位同事都是報稅了以後反而需要補繳數百瑞郎。個人推測原因是，他們可能只寫了最基本的薪資及自提退休金的部份，且住在市區，總稅金會比源頭稅高上許多。
 
